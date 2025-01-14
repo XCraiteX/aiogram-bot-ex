@@ -11,7 +11,7 @@
 ## Installation
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/chatgpt-api-script.git
+git clone https://github.com/XCraiteX/aiogram-bot-ex.git
 ```
 
 ### 2. Replace token in `config.json`
