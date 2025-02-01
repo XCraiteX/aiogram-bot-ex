@@ -13,7 +13,7 @@ with open('data/config.json', 'r', encoding='UTF-8') as f:
     settings = json.load(f)    
 
 logging.basicConfig(level=logging.INFO)
-bot = Bot(settings.token)
+bot = Bot(settings['token'])
 dp = Dispatcher()
     
 
