@@ -18,7 +18,7 @@ dp = Dispatcher()
     
 
 @dp.startup()
-async def on_startup(dp):
+async def on_startup():
     print('Bot started!')
     # Bot startupp
 
